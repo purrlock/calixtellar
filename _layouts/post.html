@@ -1,0 +1,12 @@
+{% include header.html %}
+
+<article>
+	<h3><a href={{ post.url }}>{{ page.title }}</a></h3>
+	<h4>{{ page.date | date_to_long_string }}</h4>
+
+	<div class="post-content">
+		{{ content }}
+	</div>
+</article>
+
+{% include footer.html %}

@@ -820,6 +820,16 @@ section #title .credits.right {
   float: right;
 }
 
+.post-content {
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+
+#copyright {
+	font-size: 80%;
+	text-align: center;
+}
+
 @media print, screen and (max-width: 720px) {
   #title .credits {
     display: block;
